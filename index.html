@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nosso Amor - 1 Ano</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main class="container">
+      <h1>Hoje celebramos 1 ano do amor mais bonito que já conheci.</h1>
+      <div class="music-player">
+        <iframe
+          style="border-radius: 12px"
+          src="https://open.spotify.com/embed/track/2plbrEY59IikOBgBGLjaoe?utm_source=generator&theme=0"
+          width="100%"
+          height="152"
+          frameborder="0"
+          allowfullscreen=""
+          allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+          loading="lazy"
+        ></iframe>
+      </div>
+
+      <section class="letter">
+        <p>
+          Esse site é só um cantinho simbólico para celebrar a gente, enquanto o
+          presente principal não chega...
+        </p>
+      </section>
+      <section class="album">
+        <h2>❤️ Nossos Momentos</h2>
+        <div class="fotos-grid">
+          <div class="foto-polaroid">
+            <img src="fotos/foto1.jpg" alt="Momento especial" />
+            <p>Esse dia eu soube que era você.</p>
+          </div>
+          <div class="foto-polaroid">
+            <img src="fotos/foto2.jpg" alt="Momento especial" />
+            <p>Teu sorriso virou minha paz.</p>
+          </div>
+          <div class="foto-polaroid">
+            <img src="fotos/foto3.jpg" alt="Momento especial" />
+            <p>Nosso abraço é casa.</p>
+          </div>
+          <div class="foto-polaroid">
+            <img src="fotos/foto4.jpg" alt="Momento especial" />
+            <p>Foi aqui que o amor sorriu pra mim.</p>
+          </div>
+          <div class="foto-polaroid">
+            <img src="fotos/foto5.jpg" alt="Momento especial" />
+            <p>Naquela hora, eu só queria que o tempo congelasse.</p>
+          </div>
+          <div class="foto-polaroid">
+            <img src="fotos/foto6.jpg" alt="Momento especial" />
+            <p>
+              Se eu pudesse voltar no tempo, voltaria pra esse instante só pra
+              te olhar de novo.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="countdown">
+        <p>⏳ Faltam <span id="tempo"></span> para o presente chegar... 🎁</p>
+      </section>
+      <section class="videos">
+        <h2>🎬 Feito para você</h2>
+
+        <video controls class="video-item">
+          <source src="videos/video1.mp4" type="video/mp4" />
+          Seu navegador não suporta vídeos.
+        </video>
+
+        <video controls class="video-item">
+          <source src="videos/video2.mp4" type="video/mp4" />
+          Seu navegador não suporta vídeos.
+        </video>
+      </section>
+      <button onclick="mostrarSpoiler()">
+        👀 Quero um spoiler do presente!
+      </button>
+      <a href="carta.html" class="botao-carta">💌 Ver Carta de Amor</a>
+      <div id="spoiler" class="spoiler escondido">
+        <p>
+          Curiosa como sempre né? Mas não vai rolar spoiler! Vai ter que esperar
+          até o dia 01/05!
+        </p>
+      </div>
+    </main>
+    <script src="script.js"></script>
+    <div class="coracao" onclick="mostrarAmor()">
+      ❤️
+      <span class="mensagem" id="mensagemAmor"
+        >Esse coração bate por você.</span
+      >
+    </div>
+  </body>
+</html>
