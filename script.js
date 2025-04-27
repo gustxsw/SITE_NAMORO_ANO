@@ -28,5 +28,5 @@ atualizarContagemRegressiva();
 
 function mostrarAmor() {
   const msg = document.getElementById("mensagemAmor");
-  msg.textContent = "G + N = 💘";
+  msg.textContent = "G + A = 💘";
 }
